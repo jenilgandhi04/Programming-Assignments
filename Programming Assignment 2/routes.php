@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'PageController@indexex');
+Route::get('/', 'PageController@indexe');
 Route::get('/greet/{name}', 'PageController@greet');
 Route::get('/weather/{location}', 'WeatherController@getWeather');
 
